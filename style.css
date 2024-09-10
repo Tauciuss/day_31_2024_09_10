@@ -1,0 +1,14 @@
+
+img{
+    max-width: 350px;
+}
+
+.image{
+    cursor: pointer;
+    transition: all .25s ease-out ;
+}
+
+.image:hover{
+    width: 360px;
+    height: 360px;
+}
