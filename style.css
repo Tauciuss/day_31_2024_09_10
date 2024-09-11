@@ -12,3 +12,24 @@ img{
     width: 360px;
     height: 360px;
 }
+
+#luckyButton{
+    margin-left: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.alphabet{
+    display: flex;
+    gap: 10px;
+}
+
+.alphabet .symbol:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+.selected:hover{
+    color:lightblue;
+    cursor: pointer;
+}
